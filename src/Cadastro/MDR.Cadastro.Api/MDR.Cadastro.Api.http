@@ -1,0 +1,6 @@
+@MDR.Cadastro.Api_HostAddress = http://localhost:5052
+
+GET {{MDR.Cadastro.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{186B2723-B055-462A-A893-EEA51E07411B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{8954FECB-9308-4B9D-9F9E-44841E40D847}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cadastro", "Cadastro", "{26537F12-AE33-48F9-B268-F8070BC45932}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{19A62862-B5F6-4374-9C9B-2F621E364AEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDR.Core", "src\Core\MDR.Core\MDR.Core.csproj", "{F97E4073-F846-4978-9DFA-C6D2B3DCADEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDR.Cadastro.Domain", "src\Cadastro\MDR.Cadastro.Domain\MDR.Cadastro.Domain.csproj", "{59374FD5-DEBA-40BD-A726-49FA0C533A4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDR.Cadastro.Infrastructure.Data", "src\Cadastro\MDR.Cadastro.Infrastructure.Data\MDR.Cadastro.Infrastructure.Data.csproj", "{018DA76B-5558-4D46-9CD3-246C670EBD30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDR.Cadastro.Application", "src\Cadastro\MDR.Cadastro.Application\MDR.Cadastro.Application.csproj", "{B94EEE3A-275E-40C9-886E-69F9EE1E022C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDR.Cadastro.Api", "src\Cadastro\MDR.Cadastro.Api\MDR.Cadastro.Api.csproj", "{378A67D4-2D09-478E-B26B-38C69979E180}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F97E4073-F846-4978-9DFA-C6D2B3DCADEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F97E4073-F846-4978-9DFA-C6D2B3DCADEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F97E4073-F846-4978-9DFA-C6D2B3DCADEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F97E4073-F846-4978-9DFA-C6D2B3DCADEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59374FD5-DEBA-40BD-A726-49FA0C533A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59374FD5-DEBA-40BD-A726-49FA0C533A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59374FD5-DEBA-40BD-A726-49FA0C533A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59374FD5-DEBA-40BD-A726-49FA0C533A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{018DA76B-5558-4D46-9CD3-246C670EBD30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{018DA76B-5558-4D46-9CD3-246C670EBD30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{018DA76B-5558-4D46-9CD3-246C670EBD30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{018DA76B-5558-4D46-9CD3-246C670EBD30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B94EEE3A-275E-40C9-886E-69F9EE1E022C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B94EEE3A-275E-40C9-886E-69F9EE1E022C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B94EEE3A-275E-40C9-886E-69F9EE1E022C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B94EEE3A-275E-40C9-886E-69F9EE1E022C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{378A67D4-2D09-478E-B26B-38C69979E180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{378A67D4-2D09-478E-B26B-38C69979E180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{378A67D4-2D09-478E-B26B-38C69979E180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{378A67D4-2D09-478E-B26B-38C69979E180}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8954FECB-9308-4B9D-9F9E-44841E40D847} = {186B2723-B055-462A-A893-EEA51E07411B}
+		{26537F12-AE33-48F9-B268-F8070BC45932} = {186B2723-B055-462A-A893-EEA51E07411B}
+		{19A62862-B5F6-4374-9C9B-2F621E364AEA} = {186B2723-B055-462A-A893-EEA51E07411B}
+		{F97E4073-F846-4978-9DFA-C6D2B3DCADEB} = {19A62862-B5F6-4374-9C9B-2F621E364AEA}
+		{59374FD5-DEBA-40BD-A726-49FA0C533A4B} = {26537F12-AE33-48F9-B268-F8070BC45932}
+		{018DA76B-5558-4D46-9CD3-246C670EBD30} = {26537F12-AE33-48F9-B268-F8070BC45932}
+		{B94EEE3A-275E-40C9-886E-69F9EE1E022C} = {26537F12-AE33-48F9-B268-F8070BC45932}
+		{378A67D4-2D09-478E-B26B-38C69979E180} = {26537F12-AE33-48F9-B268-F8070BC45932}
+	EndGlobalSection
+EndGlobal
